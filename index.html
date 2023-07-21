@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <div id="room"></div>
+        </div>
+
+        <div class="editor">
+            <div class="room_edit">
+                <p>Room size</p>
+                <input type="text" id="room_height" placeholder="length">
+                <input type="text" id="room_width" placeholder="width">
+                <button onclick="roomSize()">
+                    Resize
+                </button>
+            </div>
+
+            <div class="furniture_height">
+                <p>Add furniture</p>
+                <input type="text" id="furniture_height" placeholder="length">
+                <input type="text" id="furniture_width" placeholder="width">
+                <input type="text" id="furniture_name" placeholder="name">
+                <button onclick="addFurniture()">
+                    Add
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.display {
+}
+
+.editor {
+    display: grid;
+    grid-template-rows: 10% 10%;
+}
+
+#room {
+    height:840px;
+    width:734px;
+    border: 1px solid black;
+}
+
+.room_edit {
+}
+
+.furniture_edit {
+}
+
+.furniture {
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
